@@ -1,0 +1,29 @@
+@import "tailwindcss";
+html,
+body,
+#root {
+  width: 100%;
+  max-width: 100%;
+}
+
+#root,
+#root main,
+#home {
+  min-width: 0;
+}
+
+#home h1,
+#home h2,
+#home p {
+  overflow-wrap: anywhere;
+}
+
+#home > div {
+  min-width: 0;
+  max-width: 100%;
+}
+
+#home a {
+  max-width: 100%;
+  white-space: normal;
+}
